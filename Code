@@ -2,8 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity dualportram is
-port( enable : in std_logic;
-clk : in std_logic;
+port( clk : in std_logic;
 da  : in std_logic_vector(7 downto 0);
 db  : in std_logic_vector(7 downto 0);
 addra : in natural range 1027 downto 0;
